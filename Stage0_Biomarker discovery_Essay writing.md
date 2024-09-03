@@ -1,8 +1,6 @@
 <!--StartFragment-->
 
-**Biomarker discovery using differential expression analysis**
-
-\
+## **Biomarker discovery using differential expression analysis**
 
 
 **Introduction**
@@ -17,29 +15,25 @@ This differential gene expression can be measured by RNA-Seq data analysis metho
 
 Thus, after the treatment with particular chemicals, RNA molecules are extracted from such samples and converted into cDNA libraries. Once sequencing is done, FASTQ files are generated. After that various steps are performed, including quality analysis, trimming of adapters, aligning with reference genome, and at last generation of a feature count matrix. This matrix is a file which gives the total count of transcripts per gene. The analysis of this count matrix can be visualised by drawing different types of plots with the help of R language packages such as EdgeR and DeSeq2 \[4]. 
 
-\
+
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcd3GHpxayu7vAVjkaMtNHoiXnIj1JtfFKW9NYV7TGwqJlICM9_43kiw-QcdnUydBwWsSC-OZ9p5UHwcUePcG8f3AXGLZA8o8gnhrU9uRBADjEpplx3Jf3fOqk8XXxH8xhzz48AywnYN4ZgLPDbYgI8C6DR?key=yREgEpj9wpnYdosFFvs2Dg)
 
 In figure1, we can see the differential expression of genes between 3 control and 3 treated samples. For example, in the heatmap, blue colour suggests downregulation and red colour suggests up regulation of genes. So, here we can see that **AT4G34710** is upregulated in treatment\_1,2 and 3 while it is downregulated in all the three control samples. This suggests that after some treatment, the gene expression level of the gene **AT4G34710** changed significantly \[4]. 
 
--
 
 **Conclusion**
 
 Biomarkers are different forms of indicators which help to identify the diagnosis or prognosis of some disease, condition or environmental changes in an organism. The discovery of these markers can be done by measurement of differential gene expression analysis using techniques like RNA-Seq. This technique uses various bioinformatics tools and R packages to measure this expression and find results. 
 
--
 
 **References**
 
 1. _Biomarkers_. (n.d.). National Institute of Environmental Health Sciences. https\://www\.niehs.nih.gov/health/topics/science/biomarkers
-
-   
-
+   
 2. _7 Types of Biomarkers_. (n.d.). www\.atlasantibodies.com. https\://www\.atlasantibodies.com/knowledge-hub/blog/7-types-of-biomarkers/?language=en
-
-3) Gilbert SF. Developmental Biology. 6th edition. Sunderland (MA): Sinauer Associates; 2000. Differential Gene Expression. Available from: <https://www.ncbi.nlm.nih.gov/books/NBK10061/>
-
+   
+3. Gilbert SF. Developmental Biology. 6th edition. Sunderland (MA): Sinauer Associates; 2000. Differential Gene Expression. Available from: <https://www.ncbi.nlm.nih.gov/books/NBK10061/>
+   
 4. Pola-Sánchez E, Hernández-Martínez KM, Pérez-Estrada R, Sélem-Mójica N, Simpson J, Abraham-Juárez MJ, Herrera-Estrella A, Villalobos-Escobedo JM. RNA-Seq Data Analysis: A Practical Guide for Model and Non-Model Organisms. Curr Protoc. 2024 May;4(5):e1054. doi: 10.1002/cpz1.1054. PMID: 38808970.
 
 <!--EndFragment-->
