@@ -8,4 +8,4 @@ Hackbio Cancer internship has sharpend my knowledge and honned my skills by leve
 
 **Stage2 - Differential Gene Expression Analysis**
 
-**Stage3 - Biomarker Discovery** (Coming soon ...)
+**Stage3 - Biomarker Discovery in COAD-TCGA dataset** 
