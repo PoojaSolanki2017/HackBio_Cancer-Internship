@@ -23,9 +23,9 @@ RNA-Seq data for low-grade gliomas (LGG) and corresponding metadata, including I
 Preprocessing involved normalizing the raw counts using the TCGAanalyze\_Normalization function, which adjusts for gene length and sequencing depth biases. Lowly expressed genes were filtered out using a quantile cutoff of 0.25 through the TCGAanalyze\_Filtering function, retaining only genes with sufficient expression levels. The data was then log2-transformed, with a pseudocount of 1 added to avoid log transformation issues with zero values. This cleaned, normalized dataset was prepared for differential expression analysis.
 
 **Differential Expression Analysis results** 
-
+![Volcano Plot](https://github.com/PoojaSolanki2017/HackBio_Cancer-Internship/blob/main/Stage4/Output/Volcano_Heatmap_LGG-TCGA.png)
 This analysis aimed to identify differentially expressed genes in glioma using TCGA data. The volcano plot highlights genes with significant expression changes, with upregulated genes indicated in red and downregulated ones in blue. Notable genes include ENSG00000257935 and ENSG00000286953, which are associated with the mutant IDH status, showing substantial upregulation, suggesting their potential roles in glioma progression and adaptation to IDH mutations. Conversely, the wild-type IDH genes ENSG00000204542 and ENSG00000228630 exhibit significant downregulation, indicating that their reduced expression in mutant samples may contribute to tumor development. The heatmap further confirms distinct expression patterns between mutant and wild-type samples, showcasing clear clustering based on IDH status. Overall, these results highlight key genes that may serve as potential biomarkers or therapeutic targets in glioma management.
-
+![Heatmap](https://github.com/PoojaSolanki2017/HackBio_Cancer-Internship/blob/main/Stage4/Output/SampleCluster_Heatmap_LGG-TCGA.png)
 **Methodology for implementing and applying the KNN algorithm**
 
 **Data Acquisition and Preprocessing**
