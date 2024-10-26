@@ -2,7 +2,7 @@
 
 **HackBio Stage 4 Task Report**
 
-**Aim:** Differential Expression Analysis to distinguish any 2 IDH classes and Unsupervised clustering of gliomas based on methylation levels to classify the six IDH statuses 
+**Aim:** Differential Expression Analysis to distinguish any 2 IDH classes and Unsupervised clustering of gliomas based on gene expression data 
 
 **Authors:** Pooja Solanki (@poojasolanki2024), Mahima Chakraborty (@mahima\_ch), Mariam Mohamed (@Mariam000v), Nourhan Saad (@Nourhan-25), Mercy Ade Ige (@MaiStar), Tamosree Sikder (@Tamosree), Osama Shukri (@Osama)
 
