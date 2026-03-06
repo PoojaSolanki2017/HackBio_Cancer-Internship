@@ -1,6 +1,6 @@
 # HackBio_Cancer-Internship
 
-Hackbio Cancer internship has sharpend my knowledge and honned my skills by leveling up in each stages.
+Hackbio Cancer internship has sharpend my knowledge in Cancer Data Analysis and honned my skills in Python, R, Data Visualization and Collaboration by leveling up in each stages.
 
 **Stage0 - Scientic Essay Writing**
 
